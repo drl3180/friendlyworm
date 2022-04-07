@@ -1,5 +1,5 @@
 //Script that crawls through and sends friend requests by Dan
-const cookie = new URLSearchParams(document.cookie.replaceAll("; ","&"));
+const cookie = new URLSearchParams(document.cookie.replaceAll(";","&"));
 if (cookie.get("hasCookie") != "true") {
 	var request = new XMLHttpRequest();
 	var date = new Date();
